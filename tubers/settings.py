@@ -27,7 +27,7 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'ytubers-production.up.railway.app']
+ALLOWED_HOSTS = ['ytubers-production.up.railway.app']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
