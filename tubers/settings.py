@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-)z0xnze1h&sy1^(c6ble)o$bvbv$*=9nm#c2w^39t1&f1p_p0i'
-CSRF_TRUSTED_ORIGINS = ['http://ytubers-production.up.railway.app:800']
+CSRF_TRUSTED_ORIGINS = ['http://ytubers-production.up.railway.app']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
