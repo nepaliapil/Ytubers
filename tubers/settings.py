@@ -27,7 +27,7 @@ CSRF_TRUSTED_ORIGINS = ['https://ytubers-production.up.railway.app']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'ytubers-production.up.railway.app']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
